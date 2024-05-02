@@ -1,0 +1,274 @@
+﻿body, html {
+    height: 100%;
+    margin: 0;
+    background-color: #333; /* or #000 for black */
+    color: #fff;
+}
+
+main .grid section {
+    padding: 2rem;
+}
+
+figure img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+}
+
+/* Menu points */
+a {
+    color: #ffffff; 
+    text-decoration: none; 
+    position: relative;
+    transition: all 0.3s ease; 
+    display: inline-block; 
+}
+
+a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px; 
+    bottom: 0; 
+    left: 0;
+    background-color: #ffffff; 
+    transition: width 0.8s ease; 
+    transition-delay: 0s; 
+}
+
+a:hover::after {
+    width: 100%; 
+}
+
+.name-link {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+
+.workspace {
+    display: flex;
+    gap: 0px; /* Reduce the gap between sidebar and main content */
+    margin: 0 35px; /* Reduced overall margin */
+}
+
+.sidebar {
+    background-color: #202020;
+    width: 17%;
+    padding: 40px;
+    height: 100vh;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.sidebar h3, .sidebar ul, .sidebar li {
+    color: white;
+}
+
+.sidebar h3 {
+    text-align: center; /* Centers the heading text */
+}
+
+.tool-list {
+    list-style-type: none; /* Removes bullet points */
+    padding-left: 0px; /* Removes left padding */
+}
+
+.tool-list li::marker {
+    content: ''; /* Removes list markers effectively */
+}
+
+.tool-list li i {
+    margin-right: 10px; /* Adds space between icon and text */
+    font-size: 1em; /* Matches icon size to text size */
+}
+
+.tool-list li {
+    display: flex; /* Uses flexbox layout for consistent alignment */
+    align-items: center; /* Centers icons and text vertically */
+}
+
+.main-content {
+    background-color: #f5f5f5;
+    color: #000;
+    width: 2000px;
+    padding: 0 15px;
+}
+
+.main-content.container {
+    max-width: 100%; /* Override Bootstrap's max-width */
+    width: 100%; /* Ensure it takes up full width */
+}
+
+/* TASKS PAGE ---------------------------------------- */
+
+.task {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.task:hover {
+    background-color: #eee;
+}
+
+
+/* Buttons */
+button.add-new {
+    background-color: #007BFF; /* Desired color */
+    border: none;
+    color: white;
+    padding: 6px 12px; /* Smaller padding to reduce overall size */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px; /* Smaller font size */
+    margin: 4px 2px; 
+    cursor: pointer;
+    border-radius: 12px; /* More rounded corners */
+    width: 100px;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+button.add-new:hover, .task-views button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Additional CSS for the task content layout */
+.task-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.task-list {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.task-list h3 {
+    color: #333; /* Change as needed */
+}
+
+.task-list p {
+    color: #555; /* Change as needed */
+}
+
+/* Styling for the task parameters table */
+.task-parameters {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Remove gaps between cells */
+    margin-top: 10px; /* Space between headings and tables */
+}
+
+.task-parameters th, .task-parameters td {
+    padding: 10px; /* Padding inside each cell */
+    border: 1px solid #ddd; /* Border around each cell */
+    text-align: center; /* Center-align text in cells */
+}
+
+.task-parameters th {
+    background-color: #f0f0f0; /* Light gray for header row */
+    color: #333; /* Text color for header */
+    font-weight: bold; /* Bold text for headers */
+    padding: 10px; /* Padding inside each cell */
+    border: 1px solid #ddd; /* Border around each cell */
+    text-align: center; /* Center-align text in cells */
+}
+
+
+.task-parameters .task-color {
+    display: inline-block; /* Keeps color box contained */
+    width: 20px;
+    height: 20px; /* Defines size of the color box */
+}
+
+.task-table h3 {
+    margin-top: 20px; /* Space between sections */
+}
+
+.task-table .active-tasks, .task-table .completed-tasks {
+    color: #555; /* Text color */
+}
+
+.task-content {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* TASKS PAGE -----------------------------------------*/
+
+
+
+
+
+
+/* Footer */
+
+.footer {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+/* Footer */
+
+/* POP UP ADD NEW */
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Keeps it in one place */
+    z-index: 100; /* On top of other content */
+    left: 0; /* Full coverage */
+    top: 0;
+    width: 100%; /* Full viewport */
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Translucent backdrop */
+}
+
+.modal-content {
+    position: fixed; /* Keeps it centered */
+    left: 50%; /* Centers horizontally */
+    top: 50%; /* Centers vertically */
+    transform: translate(-50%, -50%); /* Fully centers */
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Modal size */
+    max-width: 400px; /* Limit width */
+}
+
+.modal-content label {
+    color: #000; /* Ensure labels are clearly visible */
+    display: block; /* Places each label on its own line */
+    margin-top: 10px; /* Space between label and input */
+    font-weight: bold; /* Bold labels for emphasis */
+}
+
+
+label {
+    display: block; /* Ensures each label appears on its own line */
+    margin-top: 10px; /* Space between label and input */
+    font-weight: bold; /* Bold labels for emphasis */
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: #000;
+    cursor: pointer;
+}
+
+
+/* POP UP ADD NEW */
