@@ -5,8 +5,20 @@
       "PackagePath": "staticwebassets\\Portfolio.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Chefen\\OneDrive\\Dokumenter\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\Pages\\resume.html",
-      "PackagePath": "staticwebassets\\Pages\\resume.html"
+      "Id": "C:\\Users\\Chefen\\OneDrive\\Dokumenter\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\Pages\\TaskPage.html",
+      "PackagePath": "staticwebassets\\Pages\\TaskPage.html"
+    },
+    {
+      "Id": "C:\\Users\\Chefen\\OneDrive\\Dokumenter\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\Pages\\about.html",
+      "PackagePath": "staticwebassets\\Pages\\about.html"
+    },
+    {
+      "Id": "C:\\Users\\Chefen\\OneDrive\\Dokumenter\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\Pages\\planner.html",
+      "PackagePath": "staticwebassets\\Pages\\planner.html"
+    },
+    {
+      "Id": "C:\\Users\\Chefen\\OneDrive\\Dokumenter\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\Pages\\projects.html",
+      "PackagePath": "staticwebassets\\Pages\\projects.html"
     },
     {
       "Id": "C:\\Users\\Chefen\\OneDrive\\Dokumenter\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\css\\site.css",
@@ -23,6 +35,10 @@
     {
       "Id": "C:\\Users\\Chefen\\OneDrive\\Dokumenter\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Chefen\\OneDrive\\Dokumenter\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\js\\tasks.js",
+      "PackagePath": "staticwebassets\\js\\tasks.js"
     },
     {
       "Id": "C:\\Users\\Chefen\\OneDrive\\Dokumenter\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\LICENSE",

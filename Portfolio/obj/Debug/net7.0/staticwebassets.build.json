@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sxPHW+L5WlAO9OHxPOX2fy3R+FSpEKRFMVYRcilGVVg=",
+  "Hash": "3Xgm1OeuKyNkq+Hgia0hjA7jpImioe/WKoR5bh7juVk=",
   "Source": "Portfolio",
   "BasePath": "_content/Portfolio",
   "Mode": "Default",
@@ -117,6 +117,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\Chefen\\OneDrive\\Dokumenter\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\js\\tasks.js",
+      "SourceId": "Portfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Chefen\\OneDrive\\Dokumenter\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\",
+      "BasePath": "_content/Portfolio",
+      "RelativePath": "js/tasks.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\tasks.js"
     },
     {
       "Identity": "C:\\Users\\Chefen\\OneDrive\\Dokumenter\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
@@ -1088,12 +1105,12 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Chefen\\OneDrive\\Dokumenter\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\Pages\\resume.html",
+      "Identity": "C:\\Users\\Chefen\\OneDrive\\Dokumenter\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\Pages\\about.html",
       "SourceId": "Portfolio",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Chefen\\OneDrive\\Dokumenter\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\",
       "BasePath": "_content/Portfolio",
-      "RelativePath": "Pages/resume.html",
+      "RelativePath": "Pages/about.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1102,7 +1119,58 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Pages\\resume.html"
+      "OriginalItemSpec": "wwwroot\\Pages\\about.html"
+    },
+    {
+      "Identity": "C:\\Users\\Chefen\\OneDrive\\Dokumenter\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\Pages\\planner.html",
+      "SourceId": "Portfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Chefen\\OneDrive\\Dokumenter\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\",
+      "BasePath": "_content/Portfolio",
+      "RelativePath": "Pages/planner.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Pages\\planner.html"
+    },
+    {
+      "Identity": "C:\\Users\\Chefen\\OneDrive\\Dokumenter\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\Pages\\projects.html",
+      "SourceId": "Portfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Chefen\\OneDrive\\Dokumenter\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\",
+      "BasePath": "_content/Portfolio",
+      "RelativePath": "Pages/projects.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Pages\\projects.html"
+    },
+    {
+      "Identity": "C:\\Users\\Chefen\\OneDrive\\Dokumenter\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\Pages\\TaskPage.html",
+      "SourceId": "Portfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Chefen\\OneDrive\\Dokumenter\\Portfolio\\Portfolio\\Portfolio\\wwwroot\\",
+      "BasePath": "_content/Portfolio",
+      "RelativePath": "Pages/TaskPage.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Pages\\TaskPage.html"
     }
   ]
 }
